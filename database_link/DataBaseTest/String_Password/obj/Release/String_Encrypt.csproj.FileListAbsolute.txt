@@ -1,0 +1,16 @@
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\bin\Release\String_Password.exe.config
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\bin\Release\String_Password.exe
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\bin\Release\String_Password.pdb
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\obj\Release\String_Password.Form1.resources
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\obj\Release\String_Password.Properties.Resources.resources
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\obj\Release\String_Encrypt.csproj.GenerateResource.Cache
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\obj\Release\String_Password.exe
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\String_Password\obj\Release\String_Password.pdb
+D:\visual stdio\DataBaseTest\String_Password\bin\Release\String_Password.dll.config
+D:\visual stdio\DataBaseTest\String_Password\bin\Release\String_Password.dll
+D:\visual stdio\DataBaseTest\String_Password\bin\Release\String_Password.pdb
+D:\visual stdio\DataBaseTest\String_Password\obj\Release\String_Password.Form1.resources
+D:\visual stdio\DataBaseTest\String_Password\obj\Release\String_Password.Properties.Resources.resources
+D:\visual stdio\DataBaseTest\String_Password\obj\Release\String_Encrypt.csproj.GenerateResource.Cache
+D:\visual stdio\DataBaseTest\String_Password\obj\Release\String_Password.dll
+D:\visual stdio\DataBaseTest\String_Password\obj\Release\String_Password.pdb

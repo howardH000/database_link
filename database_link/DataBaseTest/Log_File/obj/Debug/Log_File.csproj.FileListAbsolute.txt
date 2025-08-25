@@ -1,0 +1,5 @@
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Log_File\bin\Debug\Log_File.dll
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Log_File\bin\Debug\Log_File.pdb
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Log_File\obj\Debug\Log_File.dll
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Log_File\obj\Debug\Log_File.pdb
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Log_File\obj\Debug\Log_File.csprojResolveAssemblyReference.cache

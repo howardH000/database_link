@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Database_Link</name>
+    </assembly>
+    <members>
+        <member name="M:Database_Link.DatabaseSQL.#ctor(System.String)">
+            <summary>
+            
+             摘要:
+            資料庫SQL    
+            
+            
+             </summary>
+            <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.Link(System.String)">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+             <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.Link">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.Insert(System.String,System.String[],System.String[],Database_Link.DatabaseType[])">
+            <summary>
+            
+             摘要:
+            新增資料庫語法     
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要新增的欄位名稱</param>
+            <param name="Value">要新增的值</param>
+            
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.Compare(System.String,System.String[],System.String[])">
+            <summary>
+            
+             摘要:
+            資料庫比對欄位值，以第一個欄位為主的比對，回傳為比對欄位名稱比對後的布林值
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要比對的欄位名稱，如果第一個false，不會在往下比對皆為false</param>
+            <param name="Value">要比對的值</param>
+            
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.Updata(System.String,System.String[],System.String[],System.String[],System.String[])">
+            <summary>
+            
+             摘要:
+            更新資料庫語法   
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Search_Column_Name">要搜尋的欄位名稱</param>
+            <param name="Search_value">要搜尋的值</param>
+            <param name="Modify_Column_Name">要修改的欄位名稱</param>
+            <param name="Modify_Value">要修改的值</param>
+                
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.SQL_Select_Data(System.String,System.String,System.String,System.String[])">
+            <summary>
+            
+             摘要:
+            查詢資料庫語法 ，回傳為查詢欄位名稱之欄位值
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Search_Column_Name">要搜尋的欄位名稱</param>
+            <param name="value">要搜尋的值</param>
+            <param name="Column_Name">要查詢的欄位名稱</param>
+                
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.Insert(System.String,System.String[],System.String[])">
+            <summary>
+            
+             摘要:
+            新增資料庫語法   
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要新增的欄位名稱</param>
+            <param name="Value">要新增的值</param>
+             
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.compare(System.String,System.String[],System.String[])">
+            <summary>
+            
+             摘要:
+            資料庫比對欄位值，以第一個欄位為主的比對，回傳為比對欄位名稱比對後的布林值      
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要比對的欄位名稱，如果第一個false，不會在往下比對皆為false</param>
+            <param name="Value">要比對的值</param>
+            
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.updata(System.String,System.String[],System.String[],Database_Link.DatabaseType[],System.String[],System.String[],Database_Link.DatabaseType[])">
+            <summary>
+            
+             摘要:
+            更新資料庫語法  
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Search_Column_Name">要搜尋的欄位名稱</param>
+            <param name="Search_value">要搜尋的值</param>
+            <param name="Modify_Column_Name">要修改的欄位名稱</param>
+            <param name="Modify_Value">要修改的值</param>
+                
+        </member>
+        <member name="M:Database_Link.DatabaseSQL.select_data(System.String,System.String,System.String,System.String[])">
+            <summary>
+            
+             摘要:
+            查詢資料庫語法 ，回傳為查詢欄位名稱之欄位值
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Search_Column_Name">要搜尋的欄位名稱</param>
+            <param name="value">要搜尋的值</param>
+            <param name="Column_Name">要查詢的欄位名稱</param>
+                
+        </member>
+        <member name="M:Database_Link.DatabaseAccess.#ctor(System.String)">
+            <summary>
+            
+             摘要:
+            資料庫SQL    
+            
+            
+             </summary>
+            <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.DatabaseAccess.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.DatabaseAccess.TransType(System.Data.OleDb.OleDbCommand,System.String[],Database_Link.DatabaseType[])">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+             <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.DatabaseAccess.compare(System.String,System.String[],System.String[])">
+            <summary>
+            
+             摘要:
+            資料庫比對欄位值，以第一個欄位為主的比對，回傳為比對欄位名稱比對後的布林值      
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要比對的欄位名稱，如果第一個false，不會在往下比對皆為false</param>
+            <param name="Value">要比對的值</param>
+            
+        </member>
+        <member name="M:Database_Link.DatabaseAccess.updata(System.String,System.String[],System.String[],Database_Link.DatabaseType[],System.String[],System.String[],Database_Link.DatabaseType[])">
+            <summary>
+            
+             摘要:
+            更新資料庫語法  
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Search_Column_Name">要搜尋的欄位名稱</param>
+            <param name="Search_value">要搜尋的值</param>
+            <param name="Modify_Column_Name">要修改的欄位名稱</param>
+            <param name="Modify_Value">要修改的值</param>
+                
+        </member>
+        <member name="M:Database_Link.DatabaseAccess.select_data(System.String,System.String,System.String,System.String[])">
+            <summary>
+            
+             摘要:
+            查詢資料庫語法 ，回傳為查詢欄位名稱之欄位值
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Search_Column_Name">要搜尋的欄位名稱</param>
+            <param name="value">要搜尋的值</param>
+            <param name="Column_Name">要查詢的欄位名稱</param>
+                
+        </member>
+        <member name="M:Database_Link.Database.Insert(System.String,System.String[],System.String[],Database_Link.DatabaseType[])">
+            <summary>
+            
+             摘要:
+            新增資料庫語法     
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要新增的欄位名稱</param>
+            <param name="Value">要新增的值</param>
+            <param name="ValueType">資料型態</param>
+            
+        </member>
+        <member name="M:Database_Link.Database.Updata(System.String,System.String[],System.String[],Database_Link.DatabaseType[],System.String[],System.String[],Database_Link.DatabaseType[])">
+            <summary>
+            
+             摘要:
+            更新資料庫語法   
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Search_Column_Name">要搜尋的欄位名稱</param>
+            <param name="Search_value">要搜尋的值</param>
+            <param name="Search_Type">要搜尋值的資料型態</param>
+            <param name="Modify_Column_Name">要修改的欄位名稱</param>
+            <param name="Modify_Value">要修改的值</param>
+            <param name="Modify_Type">要修改值的資料型態</param>
+            
+        </member>
+        <member name="M:Database_Link.SQL.#ctor(System.String)">
+            <summary>
+            
+             摘要:
+            資料庫SQL    
+            
+            
+             </summary>
+            <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.SQL.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.OLEDB.#ctor(System.String)">
+            <summary>
+            
+             摘要:
+            資料庫SQL    
+            
+            
+             </summary>
+            <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.OLEDB.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.OLEDB.Insert(System.String,System.String[],System.String[])">
+            <summary>
+            
+             摘要:
+            新增資料庫語法   
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要新增的欄位名稱</param>
+            <param name="Value">要新增的值</param>
+             
+        </member>
+        <member name="M:Database_Link.Oracle.#ctor(System.String)">
+            <summary>
+            
+             摘要:
+            資料庫SQL    
+            
+            
+             </summary>
+            <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.Oracle.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.ODBC.#ctor(System.String)">
+            <summary>
+            
+             摘要:
+            資料庫SQL    
+            
+            
+             </summary>
+            <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.ODBC.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.MYSQL.#ctor(System.String)">
+            <summary>
+            
+             摘要:
+            資料庫SQL    
+            
+            
+             </summary>
+            <param name="Connecct_String">資料庫連接字串</param>
+        </member>
+        <member name="M:Database_Link.MYSQL.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="M:Database_Link.MYSQL.TransType(MySql.Data.MySqlClient.MySqlCommand,System.String[],Database_Link.DatabaseType[])">
+            <summary>
+            
+             摘要:
+            新增資料庫語法   
+             </summary>
+            <param name="Table_Name">資料庫Table名稱</param>
+            <param name="Column_Name">要新增的欄位名稱</param>
+            <param name="Value">要新增的值</param>
+             
+        </member>
+        <member name="M:Database_Link.Mongodb.#ctor">
+            <summary>
+             摘要:
+            資料庫SQL    
+             </summary>
+        </member>
+        <member name="F:Database_Link.SettingDatabase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Database_Link.SettingDatabase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Database_Link.SettingDatabase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

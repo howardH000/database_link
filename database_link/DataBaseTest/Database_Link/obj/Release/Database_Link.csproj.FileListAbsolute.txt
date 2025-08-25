@@ -1,0 +1,11 @@
+C:\Users\howardH000\Desktop\visual stdio\Hotel_System\Database_Link\bin\Release\Database.cs
+C:\Users\howardH000\Desktop\visual stdio\Hotel_System\Database_Link\bin\Release\Database_Link.dll
+C:\Users\howardH000\Desktop\visual stdio\Hotel_System\Database_Link\bin\Release\Database_Link.pdb
+C:\Users\howardH000\Desktop\visual stdio\Hotel_System\Database_Link\bin\Release\Oracle.DataAccess.dll
+C:\Users\howardH000\Desktop\visual stdio\Hotel_System\Database_Link\obj\Release\Database_Link.dll
+C:\Users\howardH000\Desktop\visual stdio\Hotel_System\Database_Link\obj\Release\Database_Link.pdb
+D:\visual stdio\DataBaseTest\Database_Link\obj\Release\Database_Link.csprojResolveAssemblyReference.cache
+D:\visual stdio\DataBaseTest\Database_Link\obj\Release\Database_Link.SettingDatabase.resources
+D:\visual stdio\DataBaseTest\Database_Link\obj\Release\Database_Link.csproj.GenerateResource.Cache
+D:\visual stdio\DataBaseTest\Database_Link\obj\Release\Database_Link.dll
+D:\visual stdio\DataBaseTest\Database_Link\obj\Release\Database_Link.pdb

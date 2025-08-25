@@ -1,0 +1,5 @@
+D:\visual stdio\DataBaseTest\DataBaseTest\bin\Release\DataBaseTest.exe.config
+D:\visual stdio\DataBaseTest\DataBaseTest\obj\Release\DataBaseTest.csprojResolveAssemblyReference.cache
+D:\visual stdio\DataBaseTest\DataBaseTest\obj\Release\DataBaseTest.Form1.resources
+D:\visual stdio\DataBaseTest\DataBaseTest\obj\Release\DataBaseTest.Properties.Resources.resources
+D:\visual stdio\DataBaseTest\DataBaseTest\obj\Release\DataBaseTest.csproj.GenerateResource.Cache

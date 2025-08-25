@@ -1,0 +1,14 @@
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\Custom_Data\bin\Debug\Custom_Data.dll
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\Custom_Data\bin\Debug\Custom_Data.pdb
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\Custom_Data\obj\Debug\Custom_Data.csprojResolveAssemblyReference.cache
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\Custom_Data\obj\Debug\Custom_Data.dll
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\Custom_Data\obj\Debug\Custom_Data.pdb
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\Custom_Data\bin\Debug\String_Password.exe
+C:\Users\howardH000\Desktop\visual stdio\PrintPDF\Custom_Data\bin\Debug\String_Password.pdb
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Custom_Data\bin\Debug\Custom_Data.dll
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Custom_Data\bin\Debug\Custom_Data.pdb
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Custom_Data\bin\Debug\String_Password.dll
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Custom_Data\bin\Debug\String_Password.pdb
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Custom_Data\obj\Debug\Custom_Data.csprojResolveAssemblyReference.cache
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Custom_Data\obj\Debug\Custom_Data.dll
+C:\Users\howardH000\Desktop\visual stdio\DataBaseTest\Custom_Data\obj\Debug\Custom_Data.pdb
